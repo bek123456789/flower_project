@@ -1,0 +1,36 @@
+.about {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__descs {
+        display: flex;
+        gap: 30px;
+
+    }
+
+    &__link {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__firstp {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: left;
+        color: #AE7C78;
+    }
+
+    &__secondp {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+        color: #AE7C78;
+    }
+}

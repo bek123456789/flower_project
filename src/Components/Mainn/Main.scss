@@ -1,0 +1,67 @@
+.main {
+    margin: 80px 0;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__flower {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__desc {
+        display: flex;
+        text-align: center;
+        gap: 40px;
+
+        flex-direction: column;
+
+    }
+
+    &__firstp {
+        font-family: sans-serif;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 58.65px;
+        text-align: left;
+        color: #AE7C78;
+    }
+
+    &__secondp {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.26px;
+        text-align: left;
+        color: #AE7C78;
+        width: 380px;
+    }
+
+    &__button {
+        width: 285px;
+        height: 80px;
+        color: white;
+        border-radius: 40px;
+        background-color: #D89999;
+        border: none;
+        font-family: sans-serif;
+        padding: 0 70px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+
+    }
+
+    &__flow {
+        display: flex;
+        gap: 20px;
+
+    }
+
+   
+}

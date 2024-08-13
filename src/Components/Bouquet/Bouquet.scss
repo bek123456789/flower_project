@@ -1,0 +1,64 @@
+.bouquet {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__firstcard {
+        width: 388px;
+        height: 440px;
+        text-align: center;
+        border-radius: 10px;
+        background-image: url(../../../../flower/public/assets/flowincup2.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__secondcard {
+        width: 388px;
+        height: 440px;
+        text-align: center;
+        border-radius: 10px;
+        background-image: url(../../../../flower/public/assets/flowincup.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__thirdcard {
+        width: 388px;
+        height: 440px;
+        border-radius: 10px;
+        text-align: center;
+        background-image: url(../../../../flower/public/assets/girlwithflow.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__firstp {
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47.99px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+    &__secondp {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        color: #FFFFFF;
+
+    }
+}

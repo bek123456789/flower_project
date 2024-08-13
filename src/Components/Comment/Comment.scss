@@ -1,0 +1,76 @@
+.comment {
+    &__wrapper {
+        display: flex;
+        background-color: #ffff;
+        border: 1px solid #AE7C78;
+        width: 1200px;
+        height: 308px;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 0 30px;
+    }
+
+    &__firstcard {
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__otzivp {
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47.99px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #AE7C78;
+
+    }
+
+    &__secondcard {
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__thirdcard {
+        width: 300px;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__firstp {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        color: #AE7C78;
+    }
+
+    &__secondp {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+
+        color: #AE7C78;
+    }
+}

@@ -1,0 +1,35 @@
+.header {
+    padding: 20px 0;
+    margin-top: 10px;
+    border-bottom: 1px solid #AE7C78;
+    border-top: 1px solid #AE7C78;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    &__firstlink {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        color: #AE7C78;
+        padding: 0 30px;
+    }
+
+    &__icon {
+        margin: 0 20px;
+    }
+}

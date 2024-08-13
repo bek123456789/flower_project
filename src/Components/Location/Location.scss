@@ -1,0 +1,38 @@
+.location {
+    margin: 80px 0px 0px 0px;
+    position: relative;
+
+
+    &__contact {
+        width: 386px;
+        height: 520px;
+        background-color: #F7FAFC;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 40px;
+        position: absolute;
+        bottom: 70px;
+        left: 222px;
+    }
+
+
+    &__firstp {
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47.99px;
+        text-align: left;
+        color: #AE7C78;
+
+    }
+
+    &__secondp {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: left;
+        color: #AE7C78;
+    }
+}
